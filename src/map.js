@@ -28,7 +28,7 @@ export default {
       'category': 'wiki'
     },
     {
-      'text': 'help',
+      'text': 'helpaa',
       'url': '',
       'fx': 154.3247731601375,
       'fy': -429.73700786748157,
