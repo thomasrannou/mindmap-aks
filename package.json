@@ -34,7 +34,7 @@
     },
     "rules": {}
   },
-  "eslintIgnore": ["vue-mindmap.js"],
+  "eslintIgnore": ["./mindmap/vue-mindmap.min.js"],
   "browserslist": [
     "> 1%",
     "last 2 versions",
