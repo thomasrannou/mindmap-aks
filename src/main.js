@@ -1,10 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Mindmap from 'vue-mindmap'
+import mindmap from './mindmap/vue-mindmap.min.js'
+import './mindmap/vue-mindmap.min.css'
 
-import 'vue-mindmap/dist/vue-mindmap.css'
-
-Vue.use(Mindmap)
+Vue.use(mindmap)
 
 Vue.config.productionTip = false
 

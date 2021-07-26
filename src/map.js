@@ -6,7 +6,7 @@ export default {
       'fx': -13.916222252976013,
       'fy': -659.1641376795345,
       'nodes': [{
-        'text': '',
+        'text': 'AAA',
         'url': 'https://www.reddit.com/r/Python/',
         'fx': 176.083777747024,
         'fy': -665.1641376795345,
@@ -15,20 +15,20 @@ export default {
         'color': 'rgba(255, 189, 10, 1.0)'
       },
       {
-        'text': 'source',
+        'text': 'https://swimburger.net/media/ppnn3pcl/azure.png',
         'note': 'original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop',
-        'url': 'https://github.com/python/cpython',
+        'url': 'https://swimburger.net/media/ppnn3pcl/azure.png',
         'fx': 176.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': 'github',
+        'category': '',
         'color': 'rgba(36, 170, 255, 1.0)'
       }
       ],
-      'category': 'wiki'
+      'category': 'https://swimburger.net/media/ppnn3pcl/azure.png'
     },
     {
-      'text': 'helpaa',
+      'text': 'helpa',
       'url': '',
       'fx': 154.3247731601375,
       'fy': -429.73700786748157,
@@ -38,7 +38,7 @@ export default {
         'fx': 291.3247731601375,
         'fy': -546.2370078674815,
         'nodes': [],
-        'category': 'github',
+        'category': '',
         'color': 'rgba(175, 54, 242, 1.0)'
       },
       {
@@ -202,7 +202,7 @@ export default {
       }
     },
     {
-      'source': 'help',
+      'source': 'helpa',
       'target': 'python',
       'curve': {
         'x': -78.1206,
@@ -235,7 +235,7 @@ export default {
     },
     {
       'source': 'articles',
-      'target': 'help',
+      'target': 'helpa',
       'curve': {
         'x': -238.287,
         'y': -54.4818
