@@ -5100,10 +5100,10 @@ var emojiToIMG = function emojiToIMG(html) {
     html.replace(matchEmojis, function (match) {
       switch (match) {
         case '🤖':
-          return '<img class="mindmap-emoji reddit-emoji" title="reddit" src="https://play-lh.googleusercontent.com/Td6rDBtp3qmsh9QBTtg78jvnt57phTh7YLLEtAGLtKlpO8sHhx_BFgyoTw_Om4wVUuE">';
+          return '<img class="mindmap-emoji reddit-emoji" title="reddit" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/langfr-220px-Vue.js_Logo_2.svg.png">';
 
-        case '🌐':
-          return '<img class="mindmap-emoji" title="wiki" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png?v=93426798a1d4">';
+        case '🗂':
+          return '<img class="mindmap-emoji" title="stackexchange" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png?v=93426798a1d4">';
 
         case '🐙':
           return customEmojiTemplate('octocat', 'github');
