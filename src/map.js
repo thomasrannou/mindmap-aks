@@ -2,17 +2,16 @@ export default {
     'title': '',
     'nodes': [{
       'text': 'Azure Kubernetes Services',
-      'url': '',
+      'url': 'A',
       'fx': -50,
       'fy': -200,
-      'category': 'aks',
       'nodes': [{
         'text': '',
         'url': 'https://azure.microsoft.com/en-us/services/kubernetes-service',
         'fx': 176.083777747024,
         'fy': -665.1641376795345,
         'nodes': [],
-        'category': 'aks',
+        'category': 'nodes',
         'color': 'rgba(255, 189, 10, 1.0)'
       },
       {
@@ -22,36 +21,35 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
-      },      
-      ],
+      }],
     },
     {
       'text': 'Troubleshooting',
-      'url': '',
+      'url': 'a',
       'fx': -346.2056231217888,
       'fy': -1039.035120728630204,
       'nodes': [
       {
         'text': 'AKS Periscope',
-        'note': '',
+        'note': 'A',
         'url': 'https://github.com/Azure/aks-periscope',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
       }],
-      'category': ''
+      'category': 'reddit'
     },
     {
       'text': 'Identity',
-      'url': '',
+      'url': 'a',
       'fx': -586.2056231217888,
       'fy': -939.035120728630204,
       'nodes': [],
-      'category': 'identity'
+      'category': 'aks'
     },
     {
       'text': 'Azure Active Directory',
@@ -66,27 +64,27 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(36, 30, 255, 1.0)'
       },
       {
         'text': 'MFA (API Server)',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
       },
       {
         'text': 'Conditionnal Access (API Server)',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
       },
       {
@@ -96,7 +94,7 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
       },
       {
@@ -106,7 +104,7 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
       },
       {
@@ -116,7 +114,7 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
       }],
       'category': ''
@@ -133,7 +131,7 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 200, 0, 1.0)'
       }],
       'category': 'aks'
@@ -150,51 +148,51 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 200, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Private DNS Zone',
-      'url': '',
+      'url': 'A',
       'fx': -1446.2056231217888,
       'fy': -739.035120728630204,
       'nodes': [
       {
         'text': 'System',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 200, 0, 1.0)'
       },
       {
         'text': 'None (Public DNS)',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       },
       {
         'text': 'CUSTOM_PRIVATE_DNS_RESOURCE_ID',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       }]
     },
     {
       'text': 'Public Endpoint',
-      'url': '',
+      'url': 'A',
       'fx': -1086.2056231217888,
       'fy': -639.035120728630204,
       'nodes': [
@@ -205,14 +203,14 @@ export default {
           'fx': 476.083777747024,
           'fy': -625.1641376795345,
           'nodes': [],
-          'category': '',
+          'category': 'reddit',
           'color': 'rgba(0, 200, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Supported versions of Kubernetes',
-      'url': '',
+      'url': 'A',
       'fx': -1186.2056231217888,
       'fy': -539.035120728630204,
       'nodes': [
@@ -223,25 +221,25 @@ export default {
           'fx': 476.083777747024,
           'fy': -625.1641376795345,
           'nodes': [],
-          'category': '',
+          'category': 'reddit',
           'color': 'rgba(0, 200, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'SKU',
-      'url': '',
+      'url': 'A',
       'fx': -886.2056231217888,
       'fy': -439.035120728630204,
       'nodes': [
         {
           'text': 'Free',
           'note': '',
-          'url': '',
+          'url': 'A',
           'fx': 476.083777747024,
           'fy': -625.1641376795345,
           'nodes': [],
-          'category': '',
+          'category': 'reddit',
           'color': 'rgba(0, 200, 0, 1.0)'
         },
         {
@@ -251,14 +249,14 @@ export default {
           'fx': 476.083777747024,
           'fy': -625.1641376795345,
           'nodes': [],
-          'category': '',
+          'category': 'reddit',
           'color': 'rgba(100, 200, 100, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Workers Nodes',
-      'url': '',
+      'url': 'A',
       'fx': -586.2056231217888,
       'fy': -239.035120728630204,
       'nodes': [{
@@ -268,14 +266,14 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
       }],
       'category': 'nodes'
     },
     {
       'text': 'Virtual Kubelet',
-      'url': '',
+      'url': 'A',
       'fx': -1086.2056231217888,
       'fy': -239.035120728630204,
       'nodes': [{
@@ -285,7 +283,7 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
       },
       {
@@ -295,14 +293,14 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Kubelet',
-      'url': '',
+      'url': 'A',
       'fx': -950.2056231217888,
       'fy': -169.035120728630204,
       'nodes': [{
@@ -312,14 +310,14 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Node Pool',
-      'url': '',
+      'url': 'A',
       'fx': -1150.2056231217888,
       'fy': -169.035120728630204,
       'nodes': [],
@@ -327,7 +325,7 @@ export default {
     },
     {
       'text': 'Type',
-      'url': '',
+      'url': 'A',
       'fx': -1400.2056231217888,
       'fy': -169.035120728630204,
       'nodes': [{
@@ -337,7 +335,7 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
       },
       {
@@ -347,14 +345,14 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Operating System',
-      'url': '',
+      'url': 'A',
       'fx': -1386.2056231217888,
       'fy': 39.035120728630204,
       'nodes': [{
@@ -364,7 +362,7 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
       },
       {
@@ -374,24 +372,24 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       },
       {
         'text': 'Linux CBL-Mariner',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Scaling',
-      'url': '',
+      'url': 'A',
       'fx': -1386.2056231217888,
       'fy': 200.035120728630204,
       'nodes': [{
@@ -401,7 +399,7 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
       },
       {
@@ -411,17 +409,17 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       },
       {
         'text': 'Autoscaler profile',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       }
       ],
@@ -429,7 +427,7 @@ export default {
     },
     {
       'text': 'Groups',
-      'url': '',
+      'url': 'A',
       'fx': -1386.2056231217888,
       'fy': 350.035120728630204,
       'nodes': [{
@@ -439,17 +437,17 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
       },
       {
         'text': 'Availability Set',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       },
       {
@@ -459,7 +457,7 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       }
       ],
@@ -467,7 +465,7 @@ export default {
     },
     {
       'text': 'Persistent Storage',
-      'url': '',
+      'url': 'A',
       'fx': -386.2056231217888,
       'fy': 139.035120728630204,
       'category': 'storage',
@@ -478,13 +476,13 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(158, 202, 94, 1.0)'
       }]
     },
     {
       'text': 'Azure Disk',
-      'url': '',
+      'url': 'A',
       'fx': -686.2056231217888,
       'fy': 39.035120728630204,
       'nodes': [{
@@ -494,37 +492,37 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(158, 202, 94, 1.0)'
       },
       {
         'text': 'Standard HDD',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(158, 202, 94, 1.0)'
       },
       {
         'text': 'Standard SSD',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       },
       {
         'text': 'Premium SSD',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       },
       {
@@ -534,14 +532,14 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Azure File SMB',
-      'url': '',
+      'url': 'A',
       'fx': -786.2056231217888,
       'fy': 150.035120728630204,
       'nodes': [{
@@ -551,34 +549,34 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(158, 202, 94, 1.0)'
       },
       {
         'text': 'Standard (HDD)',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(158, 202, 94, 1.0)'
       },
       {
         'text': 'Premium (SSD)',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Azure File NFS',
-      'url': '',
+      'url': 'A',
       'fx': -786.2056231217888,
       'fy': 239.035120728630204,
       'nodes': [{
@@ -588,14 +586,14 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Azure NetApp File',
-      'url': '',
+      'url': 'A',
       'fx': -786.2056231217888,
       'fy': 320.035120728630204,
       'nodes': [{
@@ -605,14 +603,14 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Azure Blobs (Fuse)',
-      'url': '',
+      'url': 'A',
       'fx': -786.2056231217888,
       'fy': 400.035120728630204,
       'nodes': [{
@@ -622,14 +620,14 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Governance',
-      'url': '',
+      'url': 'A',
       'fx': -450,
       'fy': -100,
       'nodes': [{
@@ -639,7 +637,7 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 157, 255, 1.0)'
       },
       {
@@ -649,14 +647,14 @@ export default {
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(0, 157, 255, 1.0)'
       }],
       'category': 'governance'
     },
     {
       'text': 'Network',
-      'url': '',
+      'url': 'A',
       'fx': 0,
       'fy': 340,
       'nodes': [],
@@ -664,34 +662,34 @@ export default {
     },
     {
       'text': 'Egress',
-      'url': '',
+      'url': 'A',
       'fx': 150,
       'fy': 410,
       'nodes': [{
         'text': 'Azure Firewall',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       },
       {
         'text': 'Azure NAT gateway',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'VNet',
-      'url': '',
+      'url': 'A',
       'fx': 150,
       'fy': 250,
       'nodes': [],
@@ -699,7 +697,7 @@ export default {
     },
     {
       'text': 'SubNet',
-      'url': '',
+      'url': 'A',
       'fx': 320,
       'fy': 250,
       'nodes': [],
@@ -707,24 +705,24 @@ export default {
     },
     {
       'text': 'Private Endpoint',
-      'url': '',
+      'url': 'A',
       'fx': 550,
       'fy': 250,
       'nodes': [{
         'text': 'Private Link',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'ER/VPN Gateways',
-      'url': '',
+      'url': 'A',
       'fx': 320,
       'fy': 330,
       'nodes': [],
@@ -732,7 +730,7 @@ export default {
     },
     {
       'text': 'Azure Firewall',
-      'url': '',
+      'url': 'A',
       'fx': 320,
       'fy': 180,
       'nodes': [],
@@ -740,34 +738,34 @@ export default {
     },
     {
       'text': 'Plugins',
-      'url': '',
+      'url': 'A',
       'fx': 150,
       'fy': 480,
       'nodes': [{
         'text': 'Azure CNI',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       },
       {
         'text': 'Kubenet',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Ingress',
-      'url': '',
+      'url': 'A',
       'fx': 150,
       'fy': 550,
       'nodes': [],
@@ -775,7 +773,7 @@ export default {
     },
     {
       'text': 'HTTP Add On',
-      'url': '',
+      'url': 'A',
       'fx': 350,
       'fy': 550,
       'nodes': [],
@@ -783,7 +781,7 @@ export default {
     },
     {
       'text': 'Application Gateway Ingress Controller',
-      'url': '',
+      'url': 'A',
       'fx': 350,
       'fy': 630,
       'nodes': [],
@@ -791,34 +789,34 @@ export default {
     },
     {
       'text': 'Azure Application Gateway',
-      'url': '',
+      'url': 'A',
       'fx': 750,
       'fy': 630,
       'nodes': [{
         'text': 'Standard_v2 SKU',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       },
       {
         'text': 'WAF_v2 SKU',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Public IP',
-      'url': '',
+      'url': 'A',
       'fx':   0,
       'fy': 550,
       'nodes': [],
@@ -826,142 +824,142 @@ export default {
     },
     {
       'text': 'Azure Load Balancer',
-      'url': '',
+      'url': 'A',
       'fx': -400,
       'fy': 550,
       'nodes': [{
         'text': 'Standard SKU',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       },
       {
         'text': 'Basic SKU',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Service Mesh',
-      'url': '',
+      'url': 'A',
       'fx': -400,
       'fy': 450,
       'nodes': [{
         'text': 'Istio',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       },
       {
         'text': 'Open Service Mesh add on',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Network policies',
-      'url': '',
+      'url': 'A',
       'fx': -300,
       'fy': 300,
       'nodes': [{
         'text': 'Azure',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       },
       {
         'text': 'Calico',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Monitoring',
-      'url': '',
+      'url': 'A',
       'fx': 550,
       'fy': 80,
       'nodes': [{
         'text': 'Azure Policy',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 231, 0, 1.0)'
       }],
       'category': 'monitoring'
     },
     {
       'text': 'Workspace Log Analytics',
-      'url': '',
+      'url': 'A',
       'fx': 950,
       'fy': 100,
       'nodes': [{
         'text': 'Control Plane Logs',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 231, 0, 1.0)'
       },
       {
         'text': 'Azure Monitor Insight',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 231, 0, 1.0)'
       },
       {
         'text': 'Azure Monitor for containers',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 231, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Prometheus endpoints',
-      'url': '',
+      'url': 'A',
       'fx': 950,
       'fy': 200,
       'nodes': [],
@@ -969,7 +967,7 @@ export default {
     },
     {
       'text': 'Kubernetes Resource viewer',
-      'url': '',
+      'url': 'A',
       'fx': 950,
       'fy': 300,
       'nodes': [],
@@ -977,24 +975,24 @@ export default {
     },
     {
       'text': 'Automation',
-      'url': '',
+      'url': 'A',
       'fx': 350,
       'fy': -200,
       'nodes': [{
         'text': 'Azure Policy',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
       }],
       'category': 'automation'
     },
     {
       'text': 'Deployment Center',
-      'url': '',
+      'url': 'A',
       'fx': 550,
       'fy': -300,
       'nodes': [],
@@ -1002,61 +1000,61 @@ export default {
     },
     {
       'text': 'GitHub',
-      'url': '',
+      'url': 'A',
       'fx': 850,
       'fy': -450,
       'nodes': [{
         'text': 'GitHub repo',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
       },
       {
         'text': 'GitHub Actions',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Azure DevOps',
-      'url': '',
+      'url': 'A',
       'fx': 850,
       'fy': -380,
       'nodes': [{
         'text': 'Azure repo',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
       },
       {
         'text': 'Azure Pipelines',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Bitbucket cloud',
-      'url': '',
+      'url': 'A',
       'fx': 850,
       'fy': -310,
       'nodes': [],
@@ -1064,7 +1062,7 @@ export default {
     },
     {
       'text': 'Other Git',
-      'url': '',
+      'url': 'A',
       'fx': 850,
       'fy': -240,
       'nodes': [],
@@ -1072,7 +1070,7 @@ export default {
     },
     {
       'text': 'Upgrade',
-      'url': '',
+      'url': 'A',
       'fx': 550,
       'fy': -100,
       'nodes': [],
@@ -1080,7 +1078,7 @@ export default {
     },
     {
       'text': 'Control Plane',
-      'url': '',
+      'url': 'A',
       'fx': 850,
       'fy': -160,
       'nodes': [],
@@ -1088,7 +1086,7 @@ export default {
     },
     {
       'text': 'Worker nodes',
-      'url': '',
+      'url': 'A',
       'fx': 850,
       'fy': -50,
       'nodes': [],
@@ -1096,75 +1094,75 @@ export default {
     },
     {
       'text': 'Kubernetes version',
-      'url': '',
+      'url': 'A',
       'fx': 1200,
       'fy': -150,
       'nodes': [{
         'text': 'Auto upgrade',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Node image',
-      'url': '',
+      'url': 'A',
       'fx': 1200,
       'fy': -80,
       'nodes': [{
         'text': 'Auto upgrade',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Security patches',
-      'url': '',
+      'url': 'A',
       'fx': 1200,
       'fy': -10,
       'nodes': [{
         'text': 'Kured',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Security',
-      'url': '',
+      'url': 'A',
         'fx': 186.2056231217888,
         'fy': -639.035120728630204,
       'nodes': [{
         'text': 'Azure Policy',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
       }],
       'category': 'security'
     },
     {
       'text': 'Deployment',
-      'url': '',
+      'url': 'A',
       'fx': 86.2056231217888,
       'fy': -1039.035120728630204,
       'nodes': [],
@@ -1172,91 +1170,91 @@ export default {
     },
     {
       'text': 'Imperative',
-      'url': '',
+      'url': 'A',
       'fx': 186.2056231217888,
       'fy': -1139.035120728630204,
       'nodes': [{
         'text': 'Azure Portal',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
       },
       {
         'text': 'Azure Powershell',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
       },
       {
         'text': 'Azure CLI',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Declarative',
-      'url': '',
+      'url': 'A',
       'fx': 386.2056231217888,
       'fy': -1039.035120728630204,
       'nodes': [{
         'text': 'Azure Resource Manager Template',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
       },
       {
         'text': 'Bicep',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
       },
       {
         'text': 'Terraform',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
       },
       {
         'text': 'Ansible',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Az aks command invoke',
-      'url': '',
+      'url': 'A',
       'fx': 286.2056231217888,
       'fy': -939.035120728630204,
       'nodes': [],
@@ -1264,34 +1262,34 @@ export default {
     },
     {
       'text': 'CSI Secret Store Driver',
-      'url': '',
+      'url': 'A',
       'fx': 286.2056231217888,
       'fy': -839.035120728630204,
       'nodes': [{
         'text': 'Azure Key Vault',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'FIPS compliant nodes',
-      'url': '',
+      'url': 'A',
       'fx': 586.2056231217888,
       'fy': -610.035120728630204,
       'nodes': [{
         'text': 'Azure Key Vault',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
       }],
       'category': ''
@@ -1299,33 +1297,33 @@ export default {
     {
       'text': 'Confidential Computing node',
       'note': '',
-      'url': '',
+      'url': 'A',
       'fx': 486.2056231217888,
       'fy': -450.035120728630204,
       'nodes': [],
-      'category': '',
+      'category': 'reddit',
       'color': 'rgba(255, 0, 0, 1.0)'
     },
     {
       'text': 'Azure Security Center',
-      'url': '',
+      'url': 'A',
       'fx': 486.2056231217888,
       'fy': -539.035120728630204,
       'nodes': [{
         'text': 'Azure Defender for Kubernetes',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'Disk Encryption',
-      'url': '',
+      'url': 'A',
       'fx': 386.2056231217888,
       'fy': -739.035120728630204,
       'nodes': [],
@@ -1333,24 +1331,24 @@ export default {
     },
     {
       'text': 'Data Disk',
-      'url': '',
+      'url': 'A',
       'fx': 700,
       'fy': -850,
       'nodes': [{
         'text': 'Azure Managed Disk',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'OS Disk',
-      'url': '',
+      'url': 'A',
       'fx': 700,
       'fy': -780,
       'nodes': [],
@@ -1358,34 +1356,34 @@ export default {
     },
     {
       'text': 'Azure Managed Disk',
-      'url': '',
+      'url': 'A',
       'fx': 950,
       'fy': -780,
       'nodes': [{
         'text': 'Customer Manaed Key',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
       },
       {
         'text': 'Service Managed Key',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
       }],
       'category': ''
     },
     {
       'text': 'OS Ephemeral Disk',
-      'url': '',
+      'url': 'A',
       'fx': 1000,
       'fy': -710,
       'nodes': [],
@@ -1393,17 +1391,17 @@ export default {
     },
     {
       'text': 'Encryption at host',
-      'url': '',
+      'url': 'A',
       'fx': 650,
       'fy': -700,
       'nodes': [{
         'text': 'Temp disk',
         'note': '',
-        'url': '',
+        'url': 'A',
         'fx': 476.083777747024,
         'fy': -625.1641376795345,
         'nodes': [],
-        'category': '',
+        'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
       }],
       'category': 'youtube'
