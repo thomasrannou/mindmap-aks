@@ -305,7 +305,7 @@ export default {
       'text': 'Kubelet',
       'url': 'A',
       'fx': -950,
-      'fy': -170,
+      'fy': 0,
       'nodes': [{
         'text': 'Doc',
         'note': '',
@@ -322,15 +322,15 @@ export default {
       'text': 'Node Pool',
       'url': 'A',
       'fx': -1150,
-      'fy': -170,
+      'fy': 100,
       'nodes': [],
       'category': ''
     },
     {
       'text': 'Type',
       'url': 'A',
-      'fx': -1400,
-      'fy': -170,
+      'fx': -1485,
+      'fy': -20,
       'nodes': [{
         'text': 'User',
         'note': '',
@@ -356,8 +356,8 @@ export default {
     {
       'text': 'Operating System',
       'url': 'A',
-      'fx': -1385,
-      'fy': 40,
+      'fx': -1600,
+      'fy': 80,
       'nodes': [{
         'text': 'Windows Server 2019',
         'note': '',
@@ -393,8 +393,8 @@ export default {
     {
       'text': 'Scaling',
       'url': 'A',
-      'fx': -1285,
-      'fy': 200,
+      'fx': -1485,
+      'fy': 220,
       'nodes': [{
         'text': 'Manual',
         'note': '',
@@ -431,12 +431,88 @@ export default {
     {
       'text': 'Groups',
       'url': 'A',
-      'fx': -1185,
+      'fx': -1385,
       'fy': 350,
       'nodes': [{
         'text': 'Proximity Placement Group',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/reduce-latency-ppg',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(0, 250, 0, 1.0)'
+      },
+      {
+        'text': 'Availability Set',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(100, 200, 100, 1.0)'
+      },
+      {
+        'text': 'Availability Zones',
+        'note': '',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/availability-zones',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(100, 200, 100, 1.0)'
+      }
+      ],
+      'category': ''
+    },
+    {
+      'text': 'Virtual Machine / VMSS',
+      'url': 'A',
+      'fx': -1385,
+      'fy': -100,
+      'nodes': [{
+        'text': 'Pay as you go',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(0, 250, 0, 1.0)'
+      },
+      {
+        'text': 'Reservation',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(100, 200, 100, 1.0)'
+      },
+      {
+        'text': 'Azure Spot',
+        'note': '',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/spot-node-pool',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(100, 200, 100, 1.0)'
+      }
+      ],
+      'category': ''
+    },
+    {
+      'text': 'EnableNodePublicIP',
+      'url': 'A',
+      'fx': -1185,
+      'fy': 550,
+      'nodes': [{
+        'text': 'Public IP',
+        'note': '',
+        'url': 'https://docs.microsoft.com/fr-fr/azure/aks/use-multiple-node-pools#assign-a-public-ip-per-node-for-your-node-pools',
         'fx': 475,
         'fy': -625,
         'nodes': [],
@@ -1446,27 +1522,43 @@ export default {
       }
     },
     {
-      'source': 'Workers Nodes',
+      'source': 'Node Pool',
       'target': 'Operating System',
       'curve': {
         'x': -175,
-        'y': 50
+        'y': 10
       }
     },
     {
-      'source': 'Workers Nodes',
+      'source': 'Node Pool',
       'target': 'Scaling',
       'curve': {
         'x': -105,
-        'y': 50
+        'y': 0
       }
     },
     {
-      'source': 'Workers Nodes',
+      'source': 'Node Pool',
       'target': 'Groups',
       'curve': {
         'x': -105,
         'y': 50
+      }
+    },
+    {
+      'source': 'Node Pool',
+      'target': 'EnableNodePublicIP',
+      'curve': {
+        'x': 105,
+        'y': 250
+      }
+    },
+    {
+      'source': 'Node Pool',
+      'target': 'Virtual Machine / VMSS',
+      'curve': {
+        'x': -105,
+        'y': -150
       }
     },
     {
@@ -1490,7 +1582,7 @@ export default {
       'target': 'Type',
       'curve': {
         'x': -205,
-        'y': 109.5548
+        'y': -209.5548
       }
     },
     {
