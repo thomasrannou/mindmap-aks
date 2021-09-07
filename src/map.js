@@ -165,7 +165,7 @@ export default {
       {
         'text': 'System',
         'note': '',
-        'url': 'https://docs.microsoft.com/en-us/azure/aks/egress-outboundtype',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/private-clusters#configure-private-dns-zone',
         'fx': 475,
         'fy': -625,
         'nodes': [],
@@ -745,6 +745,16 @@ export default {
       'fx': 150,
       'fy': 410,
       'nodes': [{
+        'text': 'Doc',
+        'note': '',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/egress-outboundtype',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(155, 0, 255, 1.0)'
+      },
+      {
         'text': 'Azure Firewall',
         'note': '',
         'url': 'https://docs.microsoft.com/fr-fr/azure/firewall/protect-azure-kubernetes-service',
@@ -818,8 +828,8 @@ export default {
     {
       'text': 'Plugins',
       'url': 'A',
-      'fx': 150,
-      'fy': 480,
+      'fx': 145,
+      'fy': 500,
       'nodes': [{
         'text': 'Azure CNI',
         'note': '',
@@ -846,7 +856,7 @@ export default {
       'text': 'Ingress',
       'url': 'A',
       'fx': 150,
-      'fy': 550,
+      'fy': 570,
       'nodes': [],
       'category': ''
     },
