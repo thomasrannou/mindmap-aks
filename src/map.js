@@ -5,38 +5,40 @@ export default {
       'url': 'A',
       'fx': -50,
       'fy': -200,
-      'nodes': [{
-        'text': '',
-        'url': 'https://azure.microsoft.com/en-us/services/kubernetes-service',
-        'fx': 176.083777747024,
-        'fy': -665.1641376795345,
-        'nodes': [],
-        'category': 'nodes',
-        'color': 'rgba(255, 189, 10, 1.0)'
-      },
+      'nodes': [
       {
         'text': 'Documentation',
         'note': '',
         'url': 'https://azure.microsoft.com/en-us/services/kubernetes-service',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(36, 170, 255, 1.0)'
+      },{
+        'text': 'AKS Checklist',
+        'note': '',
+        'url': 'https://www.the-aks-checklist.com/',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
       }],
+      'category': ''
     },
     {
       'text': 'Troubleshooting',
       'url': 'a',
-      'fx': -346.2056231217888,
-      'fy': -1039.035120728630204,
+      'fx': -345,
+      'fy': -1050,
       'nodes': [
       {
         'text': 'AKS Periscope',
         'note': 'A',
         'url': 'https://github.com/Azure/aks-periscope',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
@@ -46,23 +48,23 @@ export default {
     {
       'text': 'Identity',
       'url': 'a',
-      'fx': -586.2056231217888,
-      'fy': -939.035120728630204,
+      'fx': -585,
+      'fy': -950,
       'nodes': [],
       'category': 'aks'
     },
     {
       'text': 'Azure Active Directory',
       'url': 'https://azure.microsoft.com/en-us/services/active-directory/',
-      'fx': -1146.2056231217888,
-      'fy': -939.035120728630204,
+      'fx': -1145,
+      'fy': -940,
       'nodes': [
       {
         'text': 'Pod Identity',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/use-azure-ad-pod-identity',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(36, 30, 255, 1.0)'
@@ -70,9 +72,9 @@ export default {
       {
         'text': 'MFA (API Server)',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
@@ -80,9 +82,9 @@ export default {
       {
         'text': 'Conditionnal Access (API Server)',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
@@ -91,8 +93,8 @@ export default {
         'text': 'Service Principal',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/kubernetes-service-principal?tabs=azure-cli',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
@@ -101,8 +103,8 @@ export default {
         'text': 'Managed Identity',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/use-managed-identity',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
@@ -111,8 +113,8 @@ export default {
         'text': 'Azure RBAC for Kubernetes Autorization',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/manage-azure-rbac',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(36, 170, 255, 1.0)'
@@ -122,14 +124,14 @@ export default {
     {
       'text': 'Control Plane (Managed)',
       'url': 'https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads',
-      'fx': -686.2056231217888,
-      'fy': -539.035120728630204,
+      'fx': -685,
+      'fy': -540,
       'nodes': [{
         'text': 'Doc',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 200, 0, 1.0)'
@@ -139,14 +141,14 @@ export default {
     {
       'text': 'Private Cluster',
       'url': 'https://docs.microsoft.com/en-us/azure/aks/private-clusters',
-      'fx': -886.2056231217888,
-      'fy': -739.035120728630204,
+      'fx': -885,
+      'fy': -740,
       'nodes': [{
         'text': 'Doc',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/private-clusters',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 200, 0, 1.0)'
@@ -156,52 +158,53 @@ export default {
     {
       'text': 'Private DNS Zone',
       'url': 'A',
-      'fx': -1446.2056231217888,
-      'fy': -739.035120728630204,
+      'fx': -1446,
+      'fy': -740,
+      'category': '',
       'nodes': [
       {
         'text': 'System',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/egress-outboundtype',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
-        'category': 'reddit',
+        'category': '',
         'color': 'rgba(0, 200, 0, 1.0)'
       },
       {
         'text': 'None (Public DNS)',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
-        'category': 'reddit',
+        'category': '',
         'color': 'rgba(100, 200, 100, 1.0)'
       },
       {
         'text': 'CUSTOM_PRIVATE_DNS_RESOURCE_ID',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
-        'category': 'reddit',
+        'category': '',
         'color': 'rgba(100, 200, 100, 1.0)'
       }]
     },
     {
       'text': 'Public Endpoint',
       'url': 'A',
-      'fx': -1086.2056231217888,
-      'fy': -639.035120728630204,
+      'fx': -1085,
+      'fy': -640,
       'nodes': [
         {
           'text': 'Authorized IP',
           'note': '',
           'url': 'https://docs.microsoft.com/en-us/azure/aks/api-server-authorized-ip-ranges',
-          'fx': 476.083777747024,
-          'fy': -625.1641376795345,
+          'fx': 475,
+          'fy': -625,
           'nodes': [],
           'category': 'reddit',
           'color': 'rgba(0, 200, 0, 1.0)'
@@ -211,15 +214,15 @@ export default {
     {
       'text': 'Supported versions of Kubernetes',
       'url': 'A',
-      'fx': -1186.2056231217888,
-      'fy': -539.035120728630204,
+      'fx': -1185,
+      'fy': -540,
       'nodes': [
         {
           'text': 'Doc',
           'note': '',
           'url': 'https://docs.microsoft.com/en-us/azure/aks/supported-kubernetes-versions?tabs=azure-cli',
-          'fx': 476.083777747024,
-          'fy': -625.1641376795345,
+          'fx': 475,
+          'fy': -625,
           'nodes': [],
           'category': 'reddit',
           'color': 'rgba(0, 200, 0, 1.0)'
@@ -229,15 +232,15 @@ export default {
     {
       'text': 'SKU',
       'url': 'A',
-      'fx': -886.2056231217888,
-      'fy': -439.035120728630204,
+      'fx': -885,
+      'fy': -440,
       'nodes': [
         {
           'text': 'Free',
           'note': '',
-          'url': 'A',
-          'fx': 476.083777747024,
-          'fy': -625.1641376795345,
+          'url': '',
+          'fx': 475,
+          'fy': -625,
           'nodes': [],
           'category': 'reddit',
           'color': 'rgba(0, 200, 0, 1.0)'
@@ -246,8 +249,8 @@ export default {
           'text': 'Uptime SLA',
           'note': '',
           'url': 'https://docs.microsoft.com/en-us/azure/aks/uptime-sla',
-          'fx': 476.083777747024,
-          'fy': -625.1641376795345,
+          'fx': 475,
+          'fy': -625,
           'nodes': [],
           'category': 'reddit',
           'color': 'rgba(100, 200, 100, 1.0)'
@@ -257,14 +260,14 @@ export default {
     {
       'text': 'Workers Nodes',
       'url': 'A',
-      'fx': -586.2056231217888,
-      'fy': -239.035120728630204,
+      'fx': -585,
+      'fy': -240,
       'nodes': [{
         'text': 'Doc',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
@@ -274,14 +277,14 @@ export default {
     {
       'text': 'Virtual Kubelet',
       'url': 'A',
-      'fx': -1086.2056231217888,
-      'fy': -239.035120728630204,
+      'fx': -1085,
+      'fy': -240,
       'nodes': [{
         'text': 'Azure Container Instance',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/virtual-nodes',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
@@ -290,8 +293,8 @@ export default {
         'text': 'GitHub project',
         'note': '',
         'url': 'https://github.com/virtual-kubelet/azure-aci',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
@@ -301,14 +304,14 @@ export default {
     {
       'text': 'Kubelet',
       'url': 'A',
-      'fx': -950.2056231217888,
-      'fy': -169.035120728630204,
+      'fx': -950,
+      'fy': -170,
       'nodes': [{
         'text': 'Doc',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
@@ -318,22 +321,22 @@ export default {
     {
       'text': 'Node Pool',
       'url': 'A',
-      'fx': -1150.2056231217888,
-      'fy': -169.035120728630204,
+      'fx': -1150,
+      'fy': -170,
       'nodes': [],
       'category': ''
     },
     {
       'text': 'Type',
       'url': 'A',
-      'fx': -1400.2056231217888,
-      'fy': -169.035120728630204,
+      'fx': -1400,
+      'fy': -170,
       'nodes': [{
         'text': 'User',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/use-multiple-node-pools',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
@@ -342,8 +345,8 @@ export default {
         'text': 'System',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/use-system-pools',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -353,14 +356,14 @@ export default {
     {
       'text': 'Operating System',
       'url': 'A',
-      'fx': -1386.2056231217888,
-      'fy': 39.035120728630204,
+      'fx': -1385,
+      'fy': 40,
       'nodes': [{
         'text': 'Windows Server 2019',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/windows-faq',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
@@ -369,8 +372,8 @@ export default {
         'text': 'Linux Ubuntu',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/cluster-configuration',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -378,9 +381,9 @@ export default {
       {
         'text': 'Linux CBL-Mariner',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -390,14 +393,14 @@ export default {
     {
       'text': 'Scaling',
       'url': 'A',
-      'fx': -1386.2056231217888,
-      'fy': 200.035120728630204,
+      'fx': -1285,
+      'fy': 200,
       'nodes': [{
         'text': 'Manual',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/scale-cluster',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
@@ -406,8 +409,8 @@ export default {
         'text': 'Autoscaling',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/cluster-autoscaler',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -415,9 +418,9 @@ export default {
       {
         'text': 'Autoscaler profile',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -428,14 +431,14 @@ export default {
     {
       'text': 'Groups',
       'url': 'A',
-      'fx': -1386.2056231217888,
-      'fy': 350.035120728630204,
+      'fx': -1185,
+      'fy': 350,
       'nodes': [{
         'text': 'Proximity Placement Group',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/reduce-latency-ppg',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 250, 0, 1.0)'
@@ -443,9 +446,9 @@ export default {
       {
         'text': 'Availability Set',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -454,8 +457,8 @@ export default {
         'text': 'Availability Zones',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/availability-zones',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -466,15 +469,15 @@ export default {
     {
       'text': 'Persistent Storage',
       'url': 'A',
-      'fx': -386.2056231217888,
-      'fy': 139.035120728630204,
+      'fx': -385,
+      'fy': 140,
       'category': 'storage',
       'nodes': [{
         'text': 'Doc',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/concepts-storage',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(158, 202, 94, 1.0)'
@@ -483,14 +486,14 @@ export default {
     {
       'text': 'Azure Disk',
       'url': 'A',
-      'fx': -686.2056231217888,
-      'fy': 39.035120728630204,
+      'fx': -685,
+      'fy': 0,
       'nodes': [{
         'text': 'Doc',
         'note': '',
         'url': 'https://docs.microsoft.com/fr-fr/azure/aks/azure-disks-dynamic-pv',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(158, 202, 94, 1.0)'
@@ -498,9 +501,9 @@ export default {
       {
         'text': 'Standard HDD',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(158, 202, 94, 1.0)'
@@ -508,9 +511,9 @@ export default {
       {
         'text': 'Standard SSD',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -518,9 +521,9 @@ export default {
       {
         'text': 'Premium SSD',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -529,8 +532,8 @@ export default {
         'text': 'Ultra Disk',
         'note': '',
         'url': 'https://docs.microsoft.com/fr-fr/azure/aks/use-ultra-disks',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -540,14 +543,14 @@ export default {
     {
       'text': 'Azure File SMB',
       'url': 'A',
-      'fx': -786.2056231217888,
-      'fy': 150.035120728630204,
+      'fx': -785,
+      'fy': 150,
       'nodes': [{
         'text': 'Doc',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/azure-files-dynamic-pv',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(158, 202, 94, 1.0)'
@@ -555,9 +558,9 @@ export default {
       {
         'text': 'Standard (HDD)',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(158, 202, 94, 1.0)'
@@ -565,9 +568,9 @@ export default {
       {
         'text': 'Premium (SSD)',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -577,14 +580,14 @@ export default {
     {
       'text': 'Azure File NFS',
       'url': 'A',
-      'fx': -786.2056231217888,
-      'fy': 239.035120728630204,
+      'fx': -785,
+      'fy': 240,
       'nodes': [{
         'text': 'Doc',
         'note': '',
         'url': 'https://docs.microsoft.com/fr-fr/azure/aks/azure-nfs-volume',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -594,14 +597,14 @@ export default {
     {
       'text': 'Azure NetApp File',
       'url': 'A',
-      'fx': -786.2056231217888,
-      'fy': 320.035120728630204,
+      'fx': -785,
+      'fy': 320,
       'nodes': [{
         'text': 'Doc',
         'note': '',
         'url': 'https://docs.microsoft.com/fr-fr/azure/aks/azure-netapp-files',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -611,14 +614,14 @@ export default {
     {
       'text': 'Azure Blobs (Fuse)',
       'url': 'A',
-      'fx': -786.2056231217888,
-      'fy': 400.035120728630204,
+      'fx': -785,
+      'fy': 400,
       'nodes': [{
         'text': 'Doc',
         'note': '',
         'url': 'https://azure.microsoft.com/en-us/blog/linux-fuse-adapter-for-blob-storage/',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
@@ -634,8 +637,8 @@ export default {
         'text': 'Azure Policy',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/governance/policy/concepts/policy-for-kubernetes',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 157, 255, 1.0)'
@@ -644,8 +647,8 @@ export default {
         'text': 'Security Compliance',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/aks/eslz-security-governance-and-compliance',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(0, 157, 255, 1.0)'
@@ -668,9 +671,9 @@ export default {
       'nodes': [{
         'text': 'Azure Firewall',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/fr-fr/azure/firewall/protect-azure-kubernetes-service',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -678,9 +681,9 @@ export default {
       {
         'text': 'Azure NAT gateway',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/fr-fr/azure/aks/concepts-network#azure-virtual-networks',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -711,9 +714,9 @@ export default {
       'nodes': [{
         'text': 'Private Link',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -744,9 +747,9 @@ export default {
       'nodes': [{
         'text': 'Azure CNI',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -754,9 +757,9 @@ export default {
       {
         'text': 'Kubenet',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/configure-kubenet',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -793,11 +796,21 @@ export default {
       'fx': 750,
       'fy': 630,
       'nodes': [{
+        'text': 'Doc',
+        'note': '',
+        'url': 'https://docs.microsoft.com/en-us/azure/application-gateway/ingress-controller-overview',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(155, 0, 255, 1.0)'
+      },
+      {
         'text': 'Standard_v2 SKU',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -805,9 +818,9 @@ export default {
       {
         'text': 'WAF_v2 SKU',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -830,9 +843,9 @@ export default {
       'nodes': [{
         'text': 'Standard SKU',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/load-balancer-standard',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -840,9 +853,9 @@ export default {
       {
         'text': 'Basic SKU',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -857,9 +870,9 @@ export default {
       'nodes': [{
         'text': 'Istio',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://istio.io/latest/docs/setup/install/',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -867,9 +880,9 @@ export default {
       {
         'text': 'Open Service Mesh add on',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/fr-fr/azure/aks/open-service-mesh-about',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -884,9 +897,9 @@ export default {
       'nodes': [{
         'text': 'Azure',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/use-network-policies',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -894,9 +907,9 @@ export default {
       {
         'text': 'Calico',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.projectcalico.org/getting-started/kubernetes/managed-public-cloud/aks',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
@@ -908,16 +921,7 @@ export default {
       'url': 'A',
       'fx': 550,
       'fy': 80,
-      'nodes': [{
-        'text': 'Azure Policy',
-        'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
-        'nodes': [],
-        'category': 'reddit',
-        'color': 'rgba(255, 231, 0, 1.0)'
-      }],
+      'nodes': [],
       'category': 'monitoring'
     },
     {
@@ -928,9 +932,9 @@ export default {
       'nodes': [{
         'text': 'Control Plane Logs',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 231, 0, 1.0)'
@@ -938,9 +942,9 @@ export default {
       {
         'text': 'Azure Monitor Insight',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 231, 0, 1.0)'
@@ -948,9 +952,9 @@ export default {
       {
         'text': 'Azure Monitor for containers',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 231, 0, 1.0)'
@@ -978,16 +982,7 @@ export default {
       'url': 'A',
       'fx': 350,
       'fy': -200,
-      'nodes': [{
-        'text': 'Azure Policy',
-        'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
-        'nodes': [],
-        'category': 'reddit',
-        'color': 'rgba(255, 158, 0, 1.0)'
-      }],
+      'nodes': [],
       'category': 'automation'
     },
     {
@@ -1006,9 +1001,9 @@ export default {
       'nodes': [{
         'text': 'GitHub repo',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
@@ -1016,9 +1011,9 @@ export default {
       {
         'text': 'GitHub Actions',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
@@ -1033,9 +1028,9 @@ export default {
       'nodes': [{
         'text': 'Azure repo',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
@@ -1043,9 +1038,9 @@ export default {
       {
         'text': 'Azure Pipelines',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
@@ -1100,9 +1095,9 @@ export default {
       'nodes': [{
         'text': 'Auto upgrade',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/upgrade-cluster',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
@@ -1117,9 +1112,9 @@ export default {
       'nodes': [{
         'text': 'Auto upgrade',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/node-image-upgrade',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
@@ -1134,9 +1129,9 @@ export default {
       'nodes': [{
         'text': 'Kured',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/fr-fr/azure/aks/node-updates-kured',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 158, 0, 1.0)'
@@ -1146,14 +1141,24 @@ export default {
     {
       'text': 'Security',
       'url': 'A',
-        'fx': 186.2056231217888,
-        'fy': -639.035120728630204,
+        'fx': 185,
+        'fy': -640,
       'nodes': [{
-        'text': 'Azure Policy',
+        'text': 'Best practices',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-security',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 0, 0, 1.0)'
+      },
+      {
+        'text': 'Secure baseline',
+        'note': '',
+        'url': 'https://github.com/mspnp/aks-secure-baseline',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
@@ -1163,22 +1168,22 @@ export default {
     {
       'text': 'Deployment',
       'url': 'A',
-      'fx': 86.2056231217888,
-      'fy': -1039.035120728630204,
+      'fx': 85,
+      'fy': -1040,
       'nodes': [],
       'category': ''
     },
     {
       'text': 'Imperative',
       'url': 'A',
-      'fx': 186.2056231217888,
-      'fy': -1139.035120728630204,
+      'fx': 185,
+      'fy': -1140,
       'nodes': [{
         'text': 'Azure Portal',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
@@ -1186,9 +1191,9 @@ export default {
       {
         'text': 'Azure Powershell',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-powershell',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
@@ -1196,9 +1201,9 @@ export default {
       {
         'text': 'Azure CLI',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
@@ -1208,14 +1213,14 @@ export default {
     {
       'text': 'Declarative',
       'url': 'A',
-      'fx': 386.2056231217888,
-      'fy': -1039.035120728630204,
+      'fx': 385,
+      'fy': -1040,
       'nodes': [{
         'text': 'Azure Resource Manager Template',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-rm-template',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
@@ -1223,9 +1228,9 @@ export default {
       {
         'text': 'Bicep',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
@@ -1233,9 +1238,9 @@ export default {
       {
         'text': 'Terraform',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/developer/terraform/create-k8s-cluster-with-tf-and-aks',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
@@ -1243,9 +1248,9 @@ export default {
       {
         'text': 'Ansible',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/developer/ansible/aks-configure-clusters',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(217, 0, 255, 1.0)'
@@ -1254,23 +1259,23 @@ export default {
     },
     {
       'text': 'Az aks command invoke',
-      'url': 'A',
-      'fx': 286.2056231217888,
-      'fy': -939.035120728630204,
+      'url': 'https://docs.microsoft.com/fr-fr/azure/aks/kubernetes-walkthrough',
+      'fx': 285,
+      'fy': -940,
       'nodes': [],
       'category': ''
     },
     {
       'text': 'CSI Secret Store Driver',
       'url': 'A',
-      'fx': 286.2056231217888,
-      'fy': -839.035120728630204,
+      'fx': 285,
+      'fy': -840,
       'nodes': [{
         'text': 'Azure Key Vault',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/csi-secrets-store-driver',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
@@ -1280,14 +1285,14 @@ export default {
     {
       'text': 'FIPS compliant nodes',
       'url': 'A',
-      'fx': 586.2056231217888,
-      'fy': -610.035120728630204,
+      'fx': 585,
+      'fy': -610,
       'nodes': [{
-        'text': 'Azure Key Vault',
+        'text': 'Doc (Preview)',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/use-multiple-node-pools#add-a-fips-enabled-node-pool-preview',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
@@ -1298,8 +1303,8 @@ export default {
       'text': 'Confidential Computing node',
       'note': '',
       'url': 'A',
-      'fx': 486.2056231217888,
-      'fy': -450.035120728630204,
+      'fx': 485,
+      'fy': -450,
       'nodes': [],
       'category': 'reddit',
       'color': 'rgba(255, 0, 0, 1.0)'
@@ -1307,14 +1312,14 @@ export default {
     {
       'text': 'Azure Security Center',
       'url': 'A',
-      'fx': 486.2056231217888,
-      'fy': -539.035120728630204,
+      'fx': 485,
+      'fy': -540,
       'nodes': [{
         'text': 'Azure Defender for Kubernetes',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/security-center/defender-for-kubernetes-introduction',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
@@ -1324,8 +1329,8 @@ export default {
     {
       'text': 'Disk Encryption',
       'url': 'A',
-      'fx': 386.2056231217888,
-      'fy': -739.035120728630204,
+      'fx': 385,
+      'fy': -740,
       'nodes': [],
       'category': ''
     },
@@ -1337,9 +1342,9 @@ export default {
       'nodes': [{
         'text': 'Azure Managed Disk',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/fr-fr/azure/aks/azure-disks-dynamic-pv',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
@@ -1362,9 +1367,9 @@ export default {
       'nodes': [{
         'text': 'Customer Manaed Key',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
@@ -1372,9 +1377,9 @@ export default {
       {
         'text': 'Service Managed Key',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': '',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
@@ -1397,9 +1402,9 @@ export default {
       'nodes': [{
         'text': 'Temp disk',
         'note': '',
-        'url': 'A',
-        'fx': 476.083777747024,
-        'fy': -625.1641376795345,
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/enable-host-encryption',
+        'fx': 475,
+        'fy': -625,
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
@@ -1412,79 +1417,79 @@ export default {
       'source': 'Azure Kubernetes Services',
       'target': 'Troubleshooting',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Azure Kubernetes Services',
       'target': 'Identity',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Azure Kubernetes Services',
       'target': 'Workers Nodes',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Workers Nodes',
       'target': 'Virtual Kubelet',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': 50,
+        'y': 0
       }
     },
     {
       'source': 'Workers Nodes',
       'target': 'Operating System',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -175,
+        'y': 50
       }
     },
     {
       'source': 'Workers Nodes',
       'target': 'Scaling',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Workers Nodes',
       'target': 'Groups',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Workers Nodes',
       'target': 'Kubelet',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -405,
+        'y': 50
       }
     },
     {
       'source': 'Kubelet',
       'target': 'Node Pool',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Node Pool',
       'target': 'Type',
       'curve': {
-        'x': -203.841,
+        'x': -205,
         'y': 109.5548
       }
     },
@@ -1492,271 +1497,271 @@ export default {
       'source': 'Azure Kubernetes Services',
       'target': 'Persistent Storage',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -85,
+        'y': 50
       }
     },
     {
       'source': 'Azure Kubernetes Services',
       'target': 'Deployment',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Azure Kubernetes Services',
       'target': 'Security',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Security',
       'target': 'CSI Secret Store Driver',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Security',
       'target': 'Disk Encryption',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Disk Encryption',
       'target': 'Data Disk',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Disk Encryption',
       'target': 'OS Disk',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'OS Disk',
       'target': 'Azure Managed Disk',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': 10,
+        'y': 10
       }
     },
     {
       'source': 'OS Disk',
       'target': 'OS Ephemeral Disk',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Disk Encryption',
       'target': 'Encryption at host',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Security',
       'target': 'FIPS compliant nodes',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Security',
       'target': 'Confidential Computing node',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Security',
       'target': 'Azure Security Center',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Azure Kubernetes Services',
       'target': 'Automation',
       'curve': {
-        'x': 153.841,
-        'y': 149.5548
+        'x': 155,
+        'y': 150
       }
     },
     {
       'source': 'Automation',
       'target': 'Deployment Center',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Deployment Center',
       'target': 'GitHub',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Deployment Center',
       'target': 'Azure DevOps',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Deployment Center',
       'target': 'Bitbucket cloud',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Deployment Center',
       'target': 'Other Git',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Automation',
       'target': 'Upgrade',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Upgrade',
       'target': 'Control Plane',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Upgrade',
       'target': 'Worker nodes',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Worker nodes',
       'target': 'Kubernetes version',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Worker nodes',
       'target': 'Node image',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Worker nodes',
       'target': 'Security patches',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Azure Kubernetes Services',
       'target': 'Monitoring',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Monitoring',
       'target': 'Workspace Log Analytics',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Monitoring',
       'target': 'Prometheus endpoints',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Monitoring',
       'target': 'Kubernetes Resource viewer',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Persistent Storage',
       'target': 'Azure Disk',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -175,
+        'y': 50
       }
     },
     {
       'source': 'Persistent Storage',
       'target': 'Azure File SMB',
       'curve': {
-        'x': -125.841,
-        'y': 19.5548
+        'x': -355,
+        'y': 50
       }
     },
     {
       'source': 'Persistent Storage',
       'target': 'Azure File NFS',
       'curve': {
-        'x': -123.841,
-        'y': 49.5548
+        'x': -125,
+        'y': 50
       }
     },
     {
       'source': 'Persistent Storage',
       'target': 'Azure NetApp File',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Persistent Storage',
       'target': 'Azure Blobs (Fuse)',
       'curve': {
-        'x': -103.841,
+        'x': -105,
         'y': 180
       }
     },
@@ -1764,216 +1769,216 @@ export default {
       'source': 'Azure Kubernetes Services',
       'target': 'Governance',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 0
       }
     },
     {
       'source': 'Identity',
       'target': 'Azure Active Directory',
       'curve': {
-        'x': -350.841,
-        'y': -349.5548
+        'x': -350,
+        'y': -350
       }
     },
     {
       'source': 'Azure Kubernetes Services',
       'target': 'Control Plane (Managed)',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Control Plane (Managed)',
       'target': 'Private Cluster',
       'curve': {
-        'x': 53.841,
-        'y': -49.5548
+        'x': 55,
+        'y': -50
       }
     },
     {
       'source': 'Private Cluster',
       'target': 'Private DNS Zone',
       'curve': {
-        'x': -203.841,
-        'y': -149.5548
+        'x': -205,
+        'y': -150
       }
     },
     {
       'source': 'Control Plane (Managed)',
       'target': 'Public Endpoint',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Control Plane (Managed)',
       'target': 'Supported versions of Kubernetes',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Control Plane (Managed)',
       'target': 'SKU',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -200,
+        'y': 50
       }
     },
     {
       'source': 'Deployment',
       'target': 'Declarative',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': 10,
+        'y': 10
       }
     },
     {
       'source': 'Deployment',
       'target': 'Imperative',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Deployment',
       'target': 'Az aks command invoke',
       'curve': {
-        'x': 40.841,
-        'y': 49.5548
+        'x': 40,
+        'y': 50
       }
     },
     {
       'source': 'Azure Kubernetes Services',
       'target': 'Network',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Network',
       'target': 'Network policies',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -50,
+        'y': -50
       }
     },
     {
       'source': 'Network',
       'target': 'Service Mesh',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': 150,
+        'y': -80
       }
     },
     {
       'source': 'Network',
       'target': 'Public IP',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Public IP',
       'target': 'Azure Load Balancer',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 100
       }
     },
     {
       'source': 'Network',
       'target': 'VNet',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'VNet',
       'target': 'SubNet',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'SubNet',
       'target': 'Private Endpoint',
       'curve': {
-        'x': 3.841,
-        'y': 9.5548
+        'x': 3,
+        'y': 10
       }
     },
     {
       'source': 'VNet',
       'target': 'ER/VPN Gateways',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'VNet',
       'target': 'Azure Firewall',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Network',
       'target': 'Egress',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Network',
       'target': 'Plugins',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Network',
       'target': 'Ingress',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': -105,
+        'y': 50
       }
     },
     {
       'source': 'Ingress',
       'target': 'HTTP Add On',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': 10,
+        'y': 10
       }
     },
     {
       'source': 'Ingress',
       'target': 'Application Gateway Ingress Controller',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': 10,
+        'y': 10
       }
     },
     {
       'source': 'Application Gateway Ingress Controller',
       'target': 'Azure Application Gateway',
       'curve': {
-        'x': -103.841,
-        'y': 49.5548
+        'x': 10,
+        'y': 10
       }
     },
     ]
