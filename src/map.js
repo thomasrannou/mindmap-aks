@@ -72,6 +72,16 @@ export default {
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(255, 0, 0, 1.0)'
+      },
+      {
+        'text': 'Kubernetes Resource Viewer',
+        'note': 'A',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/kubernetes-portal',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 0, 0, 1.0)'
       }],
       'category': 'reddit'
     },
@@ -89,7 +99,7 @@ export default {
         'fy': -625,
         'nodes': [],
         'category': 'reddit',
-        'color': 'rgba(255, 0, 0, 1.0)'
+        'color': 'rgba(36, 170, 255, 1.0)'
       },
       {
         'text': 'System Managed Identity',
@@ -99,7 +109,7 @@ export default {
         'fy': -625,
         'nodes': [],
         'category': 'reddit',
-        'color': 'rgba(255, 0, 0, 1.0)'
+        'color': 'rgba(36, 170, 255, 1.0)'
       }],
       'category': 'reddit'
     },
