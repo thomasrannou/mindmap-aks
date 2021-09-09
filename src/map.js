@@ -99,7 +99,7 @@ export default {
         'fy': -625,
         'nodes': [],
         'category': 'reddit',
-        'color': 'rgba(36, 170, 255, 1.0)'
+        'color': 'rgba(36, 30, 255, 1.0)'
       },
       {
         'text': 'System Managed Identity',
@@ -109,7 +109,7 @@ export default {
         'fy': -625,
         'nodes': [],
         'category': 'reddit',
-        'color': 'rgba(36, 170, 255, 1.0)'
+        'color': 'rgba(36, 30, 255, 1.0)'
       }],
       'category': 'reddit'
     },
