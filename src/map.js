@@ -119,7 +119,7 @@ export default {
       'fx': -585,
       'fy': -950,
       'nodes': [],
-      'category': 'aks'
+      'category': 'identity'
     },
     {
       'text': 'Azure Active Directory',
