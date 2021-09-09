@@ -34,9 +34,67 @@ export default {
       'fy': -1050,
       'nodes': [
       {
+        'text': 'AKS Best practices',
+        'note': 'A',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/best-practices',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 0, 0, 1.0)'
+      },
+      {
+        'text': 'Support Policies',
+        'note': 'A',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/support-policies#shared-responsibility',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 0, 0, 1.0)'
+      },
+      {
+        'text': 'AKS Diagnostic Logs',
+        'note': 'A',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/concepts-diagnostics',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 0, 0, 1.0)'
+      },
+      {
         'text': 'AKS Periscope',
         'note': 'A',
         'url': 'https://github.com/Azure/aks-periscope',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 0, 0, 1.0)'
+      }],
+      'category': 'reddit'
+    },
+    {
+      'text': 'Managed Identity',
+      'url': 'a',
+      'fx': -1445,
+      'fy': -1050,
+      'nodes': [
+      {
+        'text': 'User Managed Identity',
+        'note': 'A',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/best-practices',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 0, 0, 1.0)'
+      },
+      {
+        'text': 'System Managed Identity',
+        'note': 'A',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/support-policies',
         'fx': 475,
         'fy': -625,
         'nodes': [],
@@ -93,16 +151,6 @@ export default {
         'text': 'Service Principal',
         'note': '',
         'url': 'https://docs.microsoft.com/en-us/azure/aks/kubernetes-service-principal?tabs=azure-cli',
-        'fx': 475,
-        'fy': -625,
-        'nodes': [],
-        'category': 'reddit',
-        'color': 'rgba(36, 170, 255, 1.0)'
-      },
-      {
-        'text': 'Managed Identity',
-        'note': '',
-        'url': 'https://docs.microsoft.com/en-us/azure/aks/use-managed-identity',
         'fx': 475,
         'fy': -625,
         'nodes': [],
@@ -424,6 +472,24 @@ export default {
         'nodes': [],
         'category': 'reddit',
         'color': 'rgba(100, 200, 100, 1.0)'
+      }
+      ],
+      'category': ''
+    },
+    {
+      'text': 'Scale-down mode',
+      'url': 'A',
+      'fx': -1685,
+      'fy': 290,
+      'nodes': [{
+        'text': 'Doc',
+        'note': '',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/scale-down-mode',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(0, 250, 0, 1.0)'
       }
       ],
       'category': ''
@@ -789,21 +855,22 @@ export default {
       'url': 'A',
       'fx': 320,
       'fy': 250,
-      'nodes': [],
-      'category': ''
-    },
-    {
-      'text': 'Private Endpoint',
-      'url': 'A',
-      'fx': 550,
-      'fy': 250,
       'nodes': [{
-        'text': 'Private Link',
+        'text': 'Private Endpoint',
         'note': '',
         'url': '',
         'fx': 475,
         'fy': -625,
-        'nodes': [],
+        'nodes': [{
+          'text': 'Private Link',
+          'note': '',
+          'url': '',
+          'fx': 475,
+          'fy': -625,
+          'nodes': [],
+          'category': 'reddit',
+          'color': 'rgba(155, 0, 255, 1.0)'
+        }],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       }],
@@ -836,7 +903,16 @@ export default {
         'url': 'https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni',
         'fx': 475,
         'fy': -625,
-        'nodes': [],
+        'nodes': [{
+          'text': 'Dynamic IP allocation',
+          'note': '',
+          'url': 'https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni#dynamic-allocation-of-ips-and-enhanced-subnet-support-preview',
+          'fx': 475,
+          'fy': -625,
+          'nodes': [],
+          'category': 'reddit',
+          'color': 'rgba(155, 0, 255, 1.0)'
+        }],
         'category': 'reddit',
         'color': 'rgba(155, 0, 255, 1.0)'
       },
@@ -863,16 +939,33 @@ export default {
     {
       'text': 'HTTP Add On',
       'url': 'A',
-      'fx': 350,
+      'fx': 400,
       'fy': 550,
-      'nodes': [],
+      'nodes': [{
+        'text': 'Nginx',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(155, 0, 255, 1.0)'
+      }],
       'category': ''
     },
     {
       'text': 'Application Gateway Ingress Controller',
       'url': 'A',
       'fx': 350,
-      'fy': 630,
+      'fy': 640,
+      'nodes': [],
+      'category': ''
+    },
+    {
+      'text': 'Any Ingress Controller',
+      'url': 'A',
+      'fx': 350,
+      'fy': 710,
       'nodes': [],
       'category': ''
     },
@@ -1011,12 +1104,12 @@ export default {
       'category': 'monitoring'
     },
     {
-      'text': 'Workspace Log Analytics',
+      'text': 'Control Plane logs/metrics',
       'url': 'A',
-      'fx': 950,
-      'fy': 100,
+      'fx': 850,
+      'fy': 170,
       'nodes': [{
-        'text': 'Control Plane Logs',
+        'text': 'kube-apiserver',
         'note': '',
         'url': '',
         'fx': 475,
@@ -1026,9 +1119,161 @@ export default {
         'color': 'rgba(255, 231, 0, 1.0)'
       },
       {
+        'text': 'kube-audit',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      },
+      {
+        'text': 'kube-audit-admin',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      },
+      {
+        'text': 'kube-controller-management',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      },
+      {
+        'text': 'kube-scheduler',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      },
+      {
+        'text': 'cluster-autoscaler',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      },
+      {
+        'text': 'guard',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      },
+      {
+        'text': 'all metrics',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      }],
+      'category': ''
+    },
+    {
+      'text': 'Destination',
+      'url': 'A',
+      'fx': 1350,
+      'fy': 200,
+      'nodes': [{
+        'text': 'Azure Storage Account',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      },
+      {
+        'text': 'Event Hub',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      },
+      {
+        'text': 'Apache Kafka for Confluent Cloud',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      },
+      {
+        'text': 'Datadog',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      },
+      {
+        'text': 'Elastic',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      },
+      {
+        'text': 'Logz.io',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 231, 0, 1.0)'
+      }],
+      'category': ''
+    },
+    {
+      'text': 'Node and apps',
+      'url': 'A',
+      'fx': 750,
+      'fy': 300,
+      'nodes': [],
+      'category': ''
+    },
+    {
+      'text': 'Workspace Log Analytics',
+      'url': 'A',
+      'fx': 1200,
+      'fy': 370,
+      'nodes': [{
         'text': 'Azure Monitor Insight',
         'note': '',
-        'url': 'https://docs.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview',
+        'url': '',
         'fx': 475,
         'fy': -625,
         'nodes': [],
@@ -1050,16 +1295,8 @@ export default {
     {
       'text': 'Prometheus endpoints',
       'url': 'A',
-      'fx': 950,
-      'fy': 200,
-      'nodes': [],
-      'category': ''
-    },
-    {
-      'text': 'Kubernetes Resource viewer',
-      'url': 'A',
-      'fx': 950,
-      'fy': 300,
+      'fx': 1200,
+      'fy': 440,
       'nodes': [],
       'category': ''
     },
@@ -1169,8 +1406,35 @@ export default {
       'text': 'Worker nodes',
       'url': 'A',
       'fx': 850,
-      'fy': -50,
+      'fy': -90,
       'nodes': [],
+      'category': ''
+    },
+    {
+      'text': 'Plan Maintenance Windows',
+      'url': 'A',
+      'fx': 740,
+      'fy': -5,
+      'nodes': [{
+        'text': 'Blocked',
+        'note': '',
+        'url': '',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 158, 0, 1.0)'
+      },
+      {
+        'text': 'Allowed',
+        'note': '',
+        'url': 'https://docs.microsoft.com/en-us/azure/aks/planned-maintenance',
+        'fx': 475,
+        'fy': -625,
+        'nodes': [],
+        'category': 'reddit',
+        'color': 'rgba(255, 158, 0, 1.0)'
+      }],
       'category': ''
     },
     {
@@ -1548,6 +1812,14 @@ export default {
       }
     },
     {
+      'source': 'Scaling',
+      'target': 'Scale-down mode',
+      'curve': {
+        'x': -105,
+        'y': 0
+      }
+    },
+    {
       'source': 'Node Pool',
       'target': 'Groups',
       'curve': {
@@ -1765,6 +2037,14 @@ export default {
     },
     {
       'source': 'Upgrade',
+      'target': 'Plan Maintenance Windows',
+      'curve': {
+        'x': -105,
+        'y': 50
+      }
+    },
+    {
+      'source': 'Upgrade',
       'target': 'Worker nodes',
       'curve': {
         'x': -105,
@@ -1805,6 +2085,22 @@ export default {
     },
     {
       'source': 'Monitoring',
+      'target': 'Control Plane logs/metrics',
+      'curve': {
+        'x': -105,
+        'y': 50
+      }
+    },
+    {
+      'source': 'Monitoring',
+      'target': 'Node and apps',
+      'curve': {
+        'x': -105,
+        'y': 50
+      }
+    },
+    {
+      'source': 'Node and apps',
       'target': 'Workspace Log Analytics',
       'curve': {
         'x': -105,
@@ -1812,7 +2108,7 @@ export default {
       }
     },
     {
-      'source': 'Monitoring',
+      'source': 'Node and apps',
       'target': 'Prometheus endpoints',
       'curve': {
         'x': -105,
@@ -1820,8 +2116,8 @@ export default {
       }
     },
     {
-      'source': 'Monitoring',
-      'target': 'Kubernetes Resource viewer',
+      'source': 'Control Plane logs/metrics',
+      'target': 'Destination',
       'curve': {
         'x': -105,
         'y': 50
@@ -1881,6 +2177,14 @@ export default {
       'curve': {
         'x': -350,
         'y': -350
+      }
+    },
+    {
+      'source': 'Azure Active Directory',
+      'target': 'Managed Identity',
+      'curve': {
+        'x': 50,
+        'y': 70
       }
     },
     {
@@ -2012,14 +2316,6 @@ export default {
       }
     },
     {
-      'source': 'SubNet',
-      'target': 'Private Endpoint',
-      'curve': {
-        'x': 3,
-        'y': 10
-      }
-    },
-    {
       'source': 'VNet',
       'target': 'ER/VPN Gateways',
       'curve': {
@@ -2065,6 +2361,14 @@ export default {
       'curve': {
         'x': 10,
         'y': 10
+      }
+    },
+    {
+      'source': 'Ingress',
+      'target': 'Any Ingress Controller',
+      'curve': {
+        'x': -110,
+        'y': 200
       }
     },
     {
