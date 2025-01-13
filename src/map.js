@@ -1,7 +1,7 @@
 export default {
     'title': '',
     'nodes': [{
-      'text': 'Azure Kubernetes Services',
+      'text': 'Azure Kubernetes Services - Thomas Rannou',
       'url': 'A',
       'fx': -50,
       'fy': -200,
